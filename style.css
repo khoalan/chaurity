@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 90px;
+  
+}
+  h1{
+    text-align: center;
+    color: lightseagreen;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+  }
+  
+  .left-side {
+    display: flex;
+  }
+
+  
+  .brand{
+    
+      height: 22px;
+      border-bottom: 1px solid transparent;
+      transition: border-bottom 0.5s;
+    
+  }
+.brand:hover{
+  border-bottom: 1px solid black;
+}
+
+ .brand a{
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+ }
+ .brand a:hover {
+  color: black;
+}
+.nav-wrapper > .right-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+  
+  .nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  
+  .nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+  }
+  
+  .active-nav-link {
+    border-bottom: 1px solid black;
+  }
+  
+  .active-nav-link a {
+    color: black !important;
+  }
+  
+  .nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  .nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+  }
+  
+  .nav-link-wrapper a:hover {
+    color: black;
+  }
+  .content-wrapper{
+    margin-right:-100px;
+    margin-left: -100px;
+    
+  }
+  .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+  
+  .portfolio-item-wrapper {
+    position: relative;
+  }
+  
+  .portfolio-img-background {
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+  }
+ 
+
+  .img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .img-text-wrapper .subtitle {
+    transition: 1s;
+    font-weight: 600;
+    color:transparent;
+    font-size: 1.3vw;
+    
+  }
+  
+  .image-blur {
+    transition: 1s;
+    filter: brightness(10%);
+  }
+  
+  .img-text-wrapper:hover .subtitle {
+    color: lightseagreen;
+    font-weight: 600;
+    font-size: 1.3vw;
+  }
+  
+  .logo-wrapper img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .profile-image-wrapper img {
+    width: 100%;
+  }
+  
+  .profile-content-wrapper {
+    padding: 30px;
+  }
+  
+  .profile-content-wrapper h1 {
+    color: lightseagreen;
+  }
+
+  .profile-content-wrapper h3{
+    
+  font-size: 2rem;
+    color: lightseagreen;
+  }
+
+
+  #page-donate{
+    height:100%;
+    width:100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+  }
+  
+  .navbar{
+    padding: .8em;
+  }
+  .navbar-nav li{
+    padding-right: 20px;
+  }
+
+  .nav-link{
+    font-size: 1.1em !important;
+  }
+
+  .carousel-inner img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+  }
+.carousel-caption h3{
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+
+.btn-primary{
+  background-color: lightseagreen;
+  border:none;
+}
+
+.btn-primary:hover{
+  background-color: #AFEEEE; 
+}
+
+.jumbotron{
+  padding: 1rem;
+  border-radius: 0;
+}
+.padding{
+  padding-bottom: 2rem;
+}
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.welcome hr{
+  border-top: 2px solid #b4b4b4;
+  width:95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.fa-hand-holding-usd{
+ color: lightseagreen;
+ font-size: 2rem;
+ margin: 1rem;
+}
+.fa-cloud-meatball{
+  color: lightseagreen;
+  font-size: 2rem;
+  margin: 1rem;
+}
+.fa-gift{
+  color: lightseagreen;
+  font-size: 2rem;
+ margin: 1rem;
+}
+.fa-home{
+  color: lightseagreen;
+  font-size: 2rem;
+ margin: 1rem;
+}
+
+.social a{
+  font-size: 4.5em;
+  padding: 3rem;
+}
+.fa-facebook{
+  color: #3b5998;
+}
+.fa-twitter{
+  color: #00aced;
+}
+.fa-youtube{
+  color: #bb0000;
+}
+.fa-instagram{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 90px;
+  line-height: 110px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,
+.fa-youtube:hover{
+  color:#d5d5d5;
+}
+footer{
+   background-color: #3f3f3f;
+   color: #d5d5d5;
+   padding-top: 2rem;
+}
+
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+} 
+@media (max-width: 992px){
+  .social a{
+    font-size: 4em;
+    padding: 2rem;
+  }
+}
+@media (max-width: 768px){
+  .carousel-caption{
+    top: 45%;
+  }
+  .carousel-captipn h1{
+    font-size: 350%;
+  }
+  .carousel-caption h3{
+    font-size: 140%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+  }
+  .carousel-caption .btn{
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+  .display-4{
+    font-size: 200%;
+  }
+  .social a{
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+}
+@media (max-width: 576px){
+ 
+  .carousel-caption{
+    top: 40%;
+  }
+  .carousel-captipn h1{
+    font-size: 250%;
+  }
+  .carousel-caption h3{
+    font-size: 110%;
+    
+  }
+  .carousel-caption .btn{
+    font-size: 90%;
+    padding: 4px 8px;
+  }
+  .display-4{
+    font-size: 160%;
+  }
+  .social a{
+    font-size: 2em;
+    padding: .7rem;
+  }
+  
+  
+  
+ }
+
+ #email{
+   color: lightseagreen;
+ }
+ #email:hover{
+   color: #AFEEEE; 
+ }
+.logo-wrapper a{
+  position: absolute;
+  top:0;
+  left:0;
+  height: 350px;
+    width: 100%;
+}
+.logo-wrapper a h1{
+  display: none;
+}
+
